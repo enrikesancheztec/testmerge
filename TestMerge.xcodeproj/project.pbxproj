@@ -13,6 +13,7 @@
 		8D99BFB326F026D900CA1F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D99BFB126F026D900CA1F9D /* Main.storyboard */; };
 		8D99BFB526F026DA00CA1F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D99BFB426F026DA00CA1F9D /* Assets.xcassets */; };
 		8D99BFB826F026DA00CA1F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D99BFB626F026DA00CA1F9D /* LaunchScreen.storyboard */; };
+		8DF6902D26F0300200870D3E /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6902C26F0300200870D3E /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D99BFB426F026DA00CA1F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D99BFB726F026DA00CA1F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D99BFB926F026DA00CA1F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF6902C26F0300200870D3E /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8D99BFB426F026DA00CA1F9D /* Assets.xcassets */,
 				8D99BFB626F026DA00CA1F9D /* LaunchScreen.storyboard */,
 				8D99BFB926F026DA00CA1F9D /* Info.plist */,
+				8DF6902C26F0300200870D3E /* GreenViewController.swift */,
 			);
 			path = TestMerge;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF6902D26F0300200870D3E /* GreenViewController.swift in Sources */,
 				8D99BFB026F026D900CA1F9D /* ViewController.swift in Sources */,
 				8D99BFAC26F026D900CA1F9D /* AppDelegate.swift in Sources */,
 				8D99BFAE26F026D900CA1F9D /* SceneDelegate.swift in Sources */,
