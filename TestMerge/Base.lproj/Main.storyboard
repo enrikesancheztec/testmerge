@@ -22,6 +22,8 @@
                                 <state key="normal" title="Blue"/>
                                 <connections>
                                     <segue destination="1AM-aI-LbY" kind="show" identifier="showBlue" id="zTb-WD-hRy"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdI-1Y-cju">
                                 <rect key="frame" x="195" y="565" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -55,9 +57,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZg-2D-2Jk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="117"/>
+            <point key="canvasLocation" x="1243" y="-108"/>
         </scene>
-	<!--Green View Controller-->
+        <!--Green View Controller-->
         <scene sceneID="8rN-Se-HD0">
             <objects>
                 <viewController id="ma8-jg-rVm" customClass="GreenViewController" customModule="TestMerge" customModuleProvider="target" sceneMemberID="viewController">
@@ -71,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ci-9k-pBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1329" y="211"/>
+            <point key="canvasLocation" x="1259" y="630"/>
         </scene>
     </scenes>
     <resources>
@@ -80,6 +82,7 @@
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
