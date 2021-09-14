@@ -24,6 +24,16 @@
                                     <segue destination="1AM-aI-LbY" kind="show" identifier="showBlue" id="zTb-WD-hRy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdI-1Y-cju">
+                                <rect key="frame" x="195" y="565" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Green">
+                                    <color key="titleColor" systemColor="systemGreenColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ma8-jg-rVm" kind="show" identifier="showGreen" id="l4k-BP-2Yt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="94"/>
+            <point key="canvasLocation" x="141" y="124"/>
         </scene>
         <!--Blue View Controller-->
         <scene sceneID="hDk-wp-Jcs">
@@ -47,7 +57,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZg-2D-2Jk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="117"/>
+            <point key="canvasLocation" x="1243" y="-108"/>
+        </scene>
+        <!--Green View Controller-->
+        <scene sceneID="8rN-Se-HD0">
+            <objects>
+                <viewController id="ma8-jg-rVm" customClass="GreenViewController" customModule="TestMerge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BEh-S3-ZMI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wWS-jH-E7K"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XHT-i2-Fhp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ci-9k-pBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1259" y="630"/>
         </scene>
     </scenes>
     <resources>
@@ -56,6 +82,9 @@
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
